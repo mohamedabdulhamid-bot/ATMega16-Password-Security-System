@@ -1,0 +1,51 @@
+
+## 3. Makefile
+```makefile
+# Makefile for ATmega16 Password Security System
+
+# Microcontroller settings
+MCU = atmega16
+F_CPU = 16000000UL
+
+# Compiler settings
+CC = avr-gcc
+CFLAGS = -mmcu=$(MCU) -DF_CPU=$(F_CPU) -Os -std=gnu99
+OBJCOPY = avr-objcopy
+AVRDUDE = avrdude
+
+# Programmer settings
+PROGRAMMER = usbasp
+PORT = usb
+
+# Source files
+SRC = src/main.c src/alcd.c
+OBJ = $(SRC:.c=.o)
+TARGET = password_system
+
+# Build rules
+all: $(TARGET).hex
+
+$(TARGET).elf: $(OBJ)
+	$(CC) $(CFLAGS) -o $@ $^
+
+$(TARGET).hex: $(TARGET).elf
+	$(OBJCOPY) -O ihex -R .eeprom $< $@
+
+%.o: %.c
+	$(CC) $(CFLAGS) -c -o $@ $<
+
+flash: $(TARGET).hex
+	$(AVRDUDE) -c $(PROGRAMMER) -p $(MCU) -P $(PORT) -U flash:w:$(TARGET).hex:i
+
+clean:
+	rm -f $(OBJ) $(TARGET).elf $(TARGET).hex
+
+# Create hex directory if it doesn't exist
+hex:
+	mkdir -p hex
+
+# Copy hex file to hex directory
+deploy: $(TARGET).hex hex
+	cp $(TARGET).hex hex/
+
+.PHONY: all flash clean deploy

@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "AVR",
+            "includePath": [
+                "${workspaceFolder}",
+                "C:/avr-gcc/avr/include",
+                "C:/avr-gcc/lib/gcc/avr/15.2.0/include",
+                "C:/avr-gcc/lib/gcc/avr/15.2.0/include-fixed"
+            ],
+            "defines": [
+                "__AVR_ATmega16__",
+                "F_CPU=16000000UL"
+            ],
+            "compilerPath": "C:/avr-gcc/bin/avr-gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+}

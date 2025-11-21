@@ -1,0 +1,14 @@
+## Pin Configuration
+
+### LCD Connections (PORTA)
+- PA0 → LCD RS
+- PA1 → LCD RW (can be grounded)
+- PA2 → LCD E
+- PA3 → LCD D4
+- PA4 → LCD D5
+- PA5 → LCD D6
+- PA6 → LCD D7
+
+### Keypad Connections (PORTD)
+- PD0-PD2 → Keypad Rows
+- PD3-PD6 → Keypad Columns
