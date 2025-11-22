@@ -17,7 +17,11 @@ A secure password-based access control system using ATmega16 microcontroller wit
 - 4x3 Matrix Keypad
 - 16MHz Crystal Oscillator
 - 5V Power Supply
-
+##Prerequisites
+- AVR GCC Toolchain
+- AVRDude (for flashing)
+- Proteus 8 Professional (for simulation)
+- vscode or any c software 
 ## Pin Configuration
 
 ### LCD Connections (PORTA)
