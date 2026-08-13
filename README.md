@@ -1,6 +1,8 @@
 # ATMega16 Password Security System
-
 A secure password-based access control system using ATmega16 microcontroller with LCD display and keypad input.
+
+## 🎥 Project Video
+[Click here to watch the full system demonstration on Youtube](https://www.youtube.com/watch?v=PrcLQZHcu2s)
 
 ## Features
 - 🔐 4-digit password authentication
