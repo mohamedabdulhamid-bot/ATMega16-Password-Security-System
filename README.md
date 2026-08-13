@@ -1,17 +1,17 @@
 # ATMega16 Password Security System
 A secure password-based access control system using ATmega16 microcontroller with LCD display and keypad input.
 
-## 🎥 Project Video
+## Project Video
 [Click here to watch the full system demonstration on Youtube](https://www.youtube.com/watch?v=PrcLQZHcu2s)
 
 ## Features
-- 🔐 4-digit password authentication
-- 📟 16x2 LCD display for user interface
-- ⌨️ 4x3 matrix keypad for input
-- 💾 EEPROM storage for persistent passwords
-- 🔄 Password change functionality
-- ⏰ Timeout after multiple failed attempts
-- 🎯 Proteus simulation ready
+- 4-digit password authentication
+- 16x2 LCD display for user interface
+- 4x3 matrix keypad for input
+- EEPROM storage for persistent passwords
+- Password change functionality
+- Timeout after multiple failed attempts
+- Proteus simulation ready
 
 ## Hardware Requirements
 - ATmega16 Microcontroller
