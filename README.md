@@ -1,11 +1,11 @@
 # ATmega16 Password Security System
 
 <div align="center">
-  <a href="[https://www.youtube.com/watch?v=PrcLQZHcu2s](https://www.youtube.com/watch?v=PrcLQZHcu2s)">
-    <img src="[https://img.youtube.com/vi/PrcLQZHcu2s/0.jpg](https://img.youtube.com/vi/PrcLQZHcu2s/0.jpg)" alt="Watch the video" width="600">
+  <a href="https://www.youtube.com/watch?v=PrcLQZHcu2s">
+    <img src="https://img.youtube.com/vi/PrcLQZHcu2s/0.jpg" alt="Watch the video" width="600">
   </a>
   <br><br>
-  <b><a href="[https://www.youtube.com/watch?v=PrcLQZHcu2s](https://www.youtube.com/watch?v=PrcLQZHcu2s)">▶ Click the image above to watch the full system demonstration on YouTube</a></b>
+  <a href="https://www.youtube.com/watch?v=PrcLQZHcu2s"><b><u>▶ Click the image above to watch the full system demonstration on YouTube</u></b></a>
 </div>
 
 ## Introduction
@@ -31,7 +31,7 @@ A secure password-based access control system using an ATmega16 microcontroller,
 *   Proteus 8 Professional (for simulation)
 *   VS Code (or any C/C++ IDE)
 
-## 🔌 Pin Configuration
+## Pin Configuration
 
 **LCD Connections (PORTA):**
 *   `PA0` → LCD RS
