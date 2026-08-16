@@ -1,9 +1,8 @@
 # ATmega16 Password Security System
-
+## Project video
 <div align="center">
   <a href="https://www.youtube.com/watch?v=PrcLQZHcu2s">
-    <img src="https://img.youtube.com/vi/PrcLQZHcu2s/0.jpg" alt="Watch the video" width="600">
-  </a>
+    <img src="https://img.youtube.com/vi/PrcLQZHcu2s/0.jpg" alt="Watch the video" width="600"></a>
   <br><br>
   <a href="https://www.youtube.com/watch?v=PrcLQZHcu2s"><b><u>▶ Click the image above to watch the full system demonstration on YouTube</u></b></a>
 </div>
